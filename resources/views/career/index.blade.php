@@ -26,6 +26,9 @@
                                         <h6>{{ Carbon\Carbon::parse($career->published_at)->format('d-M') }}</h6>
                                     </div>
                                         <span>{{$career->category}}</span>
+                                        <span><a href="{{ route('job-applications.show', $career) }}" class="btn btn-primary btn-lg">
+                                    <i class="bi bi-briefcase"></i> Apply Now
+                                </a></span>
 
                                     <h4 class="d2c_card_title">
                                         <a href="{{route('job', $career)}}">{{$career->title}}</a>

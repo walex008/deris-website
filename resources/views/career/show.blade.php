@@ -25,6 +25,15 @@
                     <div class="d2c_blog_social">
                         <div class="row align-items-center">
                             <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+                                <a href="{{ route('job-applications.show', $career) }}" class="btn btn-primary btn-lg">
+                                    <i class="bi bi-briefcase"></i> Apply Now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d2c_blog_social">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-lg-6 mb-4 mb-lg-0">
                                 <h6 class="mb-0 text-center text-lg-start">Social Media</h6>
                             </div>
                             <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-end">
