@@ -1,4 +1,7 @@
-<x-app-layout>
+<x-app-layout meta-title="Join us to make the difference| Deris Empowerment Initiatives"
+              meta-description="Empowering underserved rural communities in Nigeria with microloans, financial inclusion, and community-driven development."
+              meta-keywords="microloans in Nigeria, collateral-free loans, rural empowerment, financial inclusion, NGO microfinance services">
+    <!-- Header End -->
     <!-- Blog Archive Page Banner Start -->
     <section class="d2c_entro_launch_bg">
         <div class="container">
@@ -26,10 +29,6 @@
                                         <h6>{{ Carbon\Carbon::parse($career->published_at)->format('d-M') }}</h6>
                                     </div>
                                         <span>{{$career->category}}</span>
-                                        <span><a href="{{ route('job-applications.show', $career) }}" class="btn btn-primary btn-lg">
-                                    <i class="bi bi-briefcase"></i> Apply Now
-                                </a></span>
-
                                     <h4 class="d2c_card_title">
                                         <a href="{{route('job', $career)}}">{{$career->title}}</a>
                                     </h4>

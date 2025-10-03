@@ -5,7 +5,7 @@
             <div class="col-md-6 mb-4">
                 <h1 class="d2c_large_title position-relative">{{$hero->title}} <span>{{$hero->span_word}}</span> {{$hero->subtitle}}</h1>
                 <p>{{$hero->description}}</p>
-                <a href="./pages/about.html" class="btn position-relative">Get Started</a>
+                <a href="/about" class="btn position-relative">Get Started</a>
             </div>
             <div class="col-md-6">
                 <div class="d2c_hero_right_wrapper">

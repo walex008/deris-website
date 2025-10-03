@@ -1,4 +1,7 @@
-<x-app-layout>
+<x-app-layout meta-title="Deris Empowerment Initiatives |  {{$career->title}}"
+              meta-description="Empowering underserved rural communities in Nigeria with microloans, financial inclusion, and community-driven development."
+              meta-keywords="microloans in Nigeria, collateral-free loans, rural empowerment, financial inclusion, NGO microfinance services">
+    <!-- Header End -->
     <!-- Blog Details Banner Section Start -->
     <section class="d2c_entro_launch_bg">
         <div class="container">

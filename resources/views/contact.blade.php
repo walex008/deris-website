@@ -1,5 +1,6 @@
-<x-app-layout>
-
+<x-app-layout meta-title="Contact Deris Empowerment Initiatives | Get in Touch"
+              meta-description="Reach out to Deris Empowerment Initiatives. Call, email, or visit us to learn more about our services and community impact in Nigeria."
+              meta-keywords="contact Deris Empowerment, NGO Nigeria, microfinance contact, empowerment NGO phone, NGO address Nigeria">
     <!-- Contact Banner Section Start -->
     <section class="d2c_entro_launch_bg">
         <div class="container">

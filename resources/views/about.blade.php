@@ -1,4 +1,6 @@
-<x-app-layout>
+<x-app-layout meta-title="About Deris Empowerment Initiatives | Our Mission & Impact"
+              meta-description="Learn about Deris Empowerment Initiatives—our mission, vision, and commitment to empowering underserved communities in Nigeria through microloans and sustainable support."
+              meta-keywords="About Deris Empowerment, NGO Nigeria, microfinance NGO, rural empowerment Nigeria, financial inclusion NGO">
 
     <!-- About Banner Section Start -->
     <section class="d2c_entro_launch_bg">

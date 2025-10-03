@@ -6,13 +6,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- OG Meta Tag -->
-    <meta name="robots" content="index, follow">
-    <meta name="og:title" content="Deris Empowerment Initiatives">
-    <meta name="og:description" content="NGO in Nigeria dedicated to reducing poverty and help those struggling to afford education.">
-    <meta property="og:image" content="#">
-    <!-- Title -->
-    <title>Deris Empwerment Initiatives</title>
+    <title>{{$metaTitle}}</title>
+    <meta name="description" content="{{$metaDescription}}" />
+    <meta name="keywords" content="{{$metaKeywords}}" />
+
+    <!-- Open Graph (Social Sharing) -->
+    <meta property="og:title" content="{{$metaTitle}}" />
+    <meta property="og:description" content="{{$metaDescription}}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://derisempowerment.org/" />
+    <meta property="og:image" content="{{asset('/assets/images/deris_logo.png')}}" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{$metaTitle}}" />
+    <meta name="twitter:description" content="{{$metaDescription}}" />
+    <meta name="twitter:image" content="{{asset('/assets/images/deris_logo.png')}}" />
     <!-- Favicon -->
     <link rel="icon" id="favicon" href="{{asset('/assets/images/favicon.png')}}" type="image/gif" sizes="16x16">
     <!-- Google Font Link -->
@@ -48,7 +57,7 @@
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg" id="d2c_main_nav">
             <!-- Logo -->
-            <a class="navbar-brand" href="/"><img src="{{asset('/assets/images/deris logo new.png')}}" class="w-100" alt="Logo"></a>
+            <a class="navbar-brand" href="/"><img src="{{asset('/assets/images/deris_logo.png')}}" class="w-100" alt="Logo"></a>
             <!-- Logo -->
 
             <!-- HamBurger -->
